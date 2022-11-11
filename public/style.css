@@ -3,8 +3,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #222;
-  background-color: #ECF0F1;
+  color: #f1f1f1;
+  background-color: #222;
   text-align: center;
 }
 
@@ -24,11 +24,19 @@ a {
 input {
   display: block;
   position: relative;
-  margin: 10px auto;
+  margin: auto;
+  width: 230px;
+  height: 60px;
 }
 
 input#button {
   width: 230px;
+  height: 60px;
+  background-color: #f1f1f1;
+  border-radius: 0.25rem;
+  font-size: larger;
+  cursor: pointer;
+  transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .view {
